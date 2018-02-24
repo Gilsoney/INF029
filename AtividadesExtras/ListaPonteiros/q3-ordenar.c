@@ -23,6 +23,7 @@ int main(){
  int ordena(int *valores){
     int i,j,aux;
     for(i=0; i<5; i++){
+        
         for(j=0; j<5; j++){
             if(valores[i]<valores[j]){
                 aux=valores[i];
@@ -30,5 +31,6 @@ int main(){
                 valores[j]=aux;
             }
         }
-     }
+        
+    }
  }
